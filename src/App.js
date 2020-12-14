@@ -8,7 +8,7 @@ import AddTransaction from "./components/AddTransaction";
 
 function App() {
   return (
-    <div>
+    <>
      <Header />
      <div className="container">
        <Balance />
@@ -17,7 +17,7 @@ function App() {
        <AddTransaction /> 
        
      </div>
-    </div>
+    </>
   );
 }
 
